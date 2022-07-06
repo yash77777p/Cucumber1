@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-05T12:40:21.426Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9459000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CommonSteps.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Winter Sport Category",
+        "description": "",
+        "id": "ebay-sport-page-scenarios;winter-sport-category",
+        "after": [
+          {
+            "result": {
+              "duration": 5339000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.CommonSteps.terdown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16806000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Ebay Home Page",
+            "match": {
+              "location": "steps.EbayHomePage.i_am_on_Ebay_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12343000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicked on sprots link",
+            "match": {
+              "location": "steps.EbaySportPage_Steps.i_clicked_on_sprots_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2035000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the winter sports category",
+            "match": {
+              "location": "steps.EbaySportPage_Steps.i_validate_the_winter_sports_category()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@all"
+          },
+          {
+            "name": "@sports"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Sport Page Scenarios",
+    "description": "",
+    "id": "ebay-sport-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:Features/EBaySportsPage.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
