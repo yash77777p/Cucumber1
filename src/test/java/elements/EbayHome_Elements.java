@@ -26,7 +26,6 @@ public class EbayHome_Elements {
 	@FindBy(xpath="//b[@class=\\\"gh-eb-arw gh-sprRetina\\\"]") public WebElement hometext;
 	@FindBy(linkText = "Sign out") public WebElement signoutlink;
 
-	//Okkkk
 
 
 	
