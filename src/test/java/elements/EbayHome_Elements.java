@@ -25,7 +25,7 @@ public class EbayHome_Elements {
 	@FindBy(id = "sgnBt") public WebElement signinbtn;
 	@FindBy(xpath="//b[@class=\\\"gh-eb-arw gh-sprRetina\\\"]") public WebElement hometext;
 	@FindBy(linkText = "Sign out") public WebElement signoutlink;
-
+//ok
 
 
 	
